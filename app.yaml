@@ -1,0 +1,7 @@
+runtime: go
+service: flexmiddleware
+env: flex
+
+handlers:
+- url: /.*
+  script: auto
